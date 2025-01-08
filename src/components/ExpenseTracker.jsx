@@ -10,7 +10,7 @@ function ExpenseTracker() {
 
   // Load expenses from localStorage on page load
   useEffect(() => {
-    const storedExpenses = JSON.parse(localStorage.getItem("expenses"));
+    const storedExpenses = JSON.parse(localStorage.getItem("expenses")) || [];
     console.log(storedExpenses);
     setExpenses(storedExpenses);
     const total = storedExpenses.reduce(
