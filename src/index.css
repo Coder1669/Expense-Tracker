@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(199, 216, 215);
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+ 
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+  /* margin: 200px; */
+}
+
+
+input, select {
+  padding: 10px;
+  margin: 5px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.expense-item button {
+  background-color: #f44336;
+}
+
+.expense-item button:hover {
+  background-color: #d32f2f;
+}
+
+select {
+  width: 220px;
+}
+
+/* input[type="date"] {
+  width: 200px;
+} */
+
+#expense{
+  margin: 10px;
+}
+
+/* .width100{
+  width: 100px !important;
+  padding: 0 !important;
+
+} */
+
